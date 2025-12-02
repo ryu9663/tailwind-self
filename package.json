@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-self",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ryu9663/tailwind-self#readme",
+  "bugs": {
+    "url": "https://github.com/ryu9663/tailwind-self/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryu9663/tailwind-self.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tsc scripts/generate-css.ts --outDir dist && node dist/scripts/generate-css.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
